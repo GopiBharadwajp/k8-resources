@@ -6,9 +6,9 @@ metadata:
     project: roboshop
     purpose: muiti-container-demo
 spec:
-containers:
-- name: nginx
-  image: nginx
-- name: almalinux
-  image: almalinux
+  containers:
+  - name: nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux:9
  
